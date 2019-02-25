@@ -14,7 +14,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/sdm845-common/sdm845-common-vend
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-validus
+    $(LOCAL_PATH)/overlay-gzosp
 
 # Properties
 -include $(LOCAL_PATH)/common-props.mk

@@ -8,4 +8,5 @@ LOCAL_C_INCLUDES := \
 LOCAL_SRC_FILES := recovery_updater.cpp
 LOCAL_MODULE := librecovery_updater_xiaomi
 
+LOCAL_CFLAGS := -Wno-write-strings
 include $(BUILD_STATIC_LIBRARY)

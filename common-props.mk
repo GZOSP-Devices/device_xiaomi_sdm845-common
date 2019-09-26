@@ -159,6 +159,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.rcs.supported=0 \
     persist.vendor.ims.disableUserAgent=0
 
+# Radio Options
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.rat_on=combine \
+    persist.radio.data_ltd_sys_ind=1 \
+    persist.radio.data_con_rprt=1
+
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     DEVICE_PROVISIONED=1 \
